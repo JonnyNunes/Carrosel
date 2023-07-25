@@ -1,0 +1,14 @@
+@media screen and (max-width: 720px) {
+    body{
+        align-items: flex-start;
+    }
+    
+    body::before{
+        background-attachment: unset;
+        background-image: url("../img/background-cell.jpg");
+    }
+
+    header{
+        padding-top: 20px;
+    }
+}
