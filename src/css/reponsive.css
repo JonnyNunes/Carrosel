@@ -1,14 +1,14 @@
 @media screen and (max-width: 720px) {
     body{
-        align-items: flex-start;
+        align-items: center;
     }
     
     body::before{
-        background-attachment: unset;
         background-image: url("../img/background-cell.jpg");
     }
 
-    header{
-        padding-top: 20px;
+    /* Estilo quando o cursor estiver sobre o botão */
+    footer #buttom:hover {
+        transform: scale(1.1) rotate(360deg);
     }
 }
